@@ -9,24 +9,7 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
-  {
-    company: "Janith Bandara",
-    year: "2025",
-    title: "My Portfolio",
-    description: [
-      { bullet: "Built with Next.js, Tailwind CSS, and Framer Motion." },
-      {
-        bullet:
-          "It includes key sections like the header, hero, featured projects, and about me, designed for a responsive user experience across mobile, tablet, and desktop devices.",
-      },
-      {
-        bullet:
-          "The site incorporates interactive animations and effects, such as scrolling text, rotating stars, and dynamic layouts, using Framer Motion for smooth transitions.",
-      },
-    ],
-    link: "https://github.com/janithbandara1/my-portfolio",
-    image: myPortfolioLandingPage,
-  },
+  
   {
     company: "Course platform LMS",
     year: "2025",
@@ -38,11 +21,11 @@ const portfolioProjects = [
       },
       {
         bullet:
-          "It includes features for course creation, product purchases, and user lesson tracking, with server actions, database interactions, and caching mechanisms. Utilizes Shadcn components for tables, forms, and notifications.",
+          "It includes features for course creation, product purchases, and user lesson tracking, with server actions, database interactions, and caching mechanisms.",
       },
       {
         bullet:
-          "Security is enhanced using Arcjet, implementing bot protection, rate limiting, and IP-based rules.",
+          "Utilizes Shadcn components for tables, forms, and notifications.",
       },
     ],
     link: "https://github.com/janithbandara1/course-platform-lms",
@@ -82,6 +65,24 @@ const portfolioProjects = [
     ],
     link: "https://github.com/janithbandara1/car-trading-management-system",
     image: carTradingManagementSystemLandingPage,
+  },
+  {
+    company: "Janith Bandara",
+    year: "2025",
+    title: "My Portfolio",
+    description: [
+      { bullet: "Built with Next.js, Tailwind CSS, and Framer Motion." },
+      {
+        bullet:
+          "It includes key sections like the header, hero, featured projects, and about me, designed for a responsive user experience across mobile, tablet, and desktop devices.",
+      },
+      {
+        bullet:
+          "The site incorporates interactive animations and effects, such as scrolling text, rotating stars, and dynamic layouts, using Framer Motion for smooth transitions.",
+      },
+    ],
+    link: "https://github.com/janithbandara1/my-portfolio",
+    image: myPortfolioLandingPage,
   },
 ];
 
