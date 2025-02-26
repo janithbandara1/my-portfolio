@@ -16,31 +16,44 @@ import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
 import { useRef } from "react";
+import {
+  SiNextdotjs,
+  SiTailwindcss,
+  SiPostgresql,
+  SiReact,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+} from "react-icons/si";
 
 const toolboxItems = [
   {
-    title: "JavaScript",
-    iconType: JavascriptIcon,
+    title: "Next.js",
+    iconType: SiNextdotjs,
   },
   {
-    title: "HTML5",
-    iconType: HTMLIcon,
+    title: "Tailwind CSS",
+    iconType: SiTailwindcss,
   },
   {
-    title: "CSS3",
-    iconType: CssIcon,
+    title: "PostgreSQL",
+    iconType: SiPostgresql,
   },
   {
     title: "React",
-    iconType: ReactIcon,
+    iconType: SiReact,
   },
   {
-    title: "Chrome",
-    iconType: ChromeIcon,
+    title: "Node.js",
+    iconType: SiNodedotjs,
   },
   {
-    title: "Github",
-    iconType: GithubIcon,
+    title: "Express.js",
+    iconType: SiExpress,
+  },
+  {
+    title: "MongoDB",
+    iconType: SiMongodb,
   },
 ];
 
@@ -113,7 +126,7 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="My Toolbox"
-                description="Explore the technologies and tools I use to craft exceptional digital experiences."
+                description="Explore the tools and technologies and tools I use to craft exceptional digital experiences."
                 className=""
               />
               <ToolboxItems
@@ -124,7 +137,7 @@ export const AboutSection = () => {
               <ToolboxItems
                 items={toolboxItems}
                 className="mt-6"
-                itemWrapperClassName="animate-move-right [animation-duration:15s]"
+                itemWrapperClassName="animate-move-right [animation-duration:30s]"
               />
             </Card>
           </div>
@@ -169,6 +182,16 @@ export const AboutSection = () => {
                   alt="smiling memoji"
                   className="size-20"
                 />
+              </div>
+              <div className="absolute bottom-4 left-4">
+                <a
+                  href="https://www.google.com/maps?q=Kandy,Sri+Lanka"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 bg-gray-900/60 backdrop-blur-md rounded-full text-sm font-medium text-white hover:bg-gray-900/80 transition-colors inline-block"
+                >
+                  📍 Kandy, Sri Lanka
+                </a>
               </div>
             </Card>
           </div>
