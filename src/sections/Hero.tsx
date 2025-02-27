@@ -125,7 +125,7 @@ export const HeroSection = () => {
             Hi, I&apos;m Janith
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            I&apos;m a web developer and recently graduated from London
+            I&apos;m a full-stack developer and recently graduated from London
             Metropolitan University. I&apos;m skilled in Next.js and the MERN
             stack.
           </p>
