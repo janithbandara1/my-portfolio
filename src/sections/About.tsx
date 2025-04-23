@@ -185,12 +185,12 @@ export const AboutSection = () => {
               </div>
               <div className="absolute bottom-4 left-4">
                 <a
-                  href="https://www.google.com/maps?q=Kandy,Sri+Lanka"
+                  href="https://www.google.com/maps?q=Colombo,Sri+Lanka"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-gray-900/60 backdrop-blur-md rounded-full text-sm font-medium text-white hover:bg-gray-900/80 transition-colors inline-block"
                 >
-                  📍 Kandy, Sri Lanka
+                  📍 Colombo, Sri Lanka
                 </a>
               </div>
             </Card>
